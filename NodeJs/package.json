@@ -1,0 +1,14 @@
+{
+  "name": "codejam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "start": "python testing_tool.py node code.js",
+    "start:debugger": "python testing_tool.py node --inspect-brk=22763 code.js",
+    "exempleStart": "python ./exemple/testing_tool.py node ./exemple/code.js",
+    "exempleStart:debugger": "python ./exemple/testing_tool.py node --inspect-brk=22763 ./exemple/code.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
